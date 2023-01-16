@@ -6,6 +6,7 @@ import org.example.Student.pojo.dto.StudentResponseDTO;
 import org.example.Student.repository.StudentRepository;
 import org.example.Student.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.config.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
